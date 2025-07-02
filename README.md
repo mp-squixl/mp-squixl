@@ -13,3 +13,8 @@ The example of using fonts is entirely based on the examples provided in the SQU
 
 These new example files need to have access to the witer.py file (as found in the font-to-py library, a helper file called colors.py (so one can specify the likes of GREY in place of rgb_to_565(50, 50, 50) or 0xffe0), boolpalette.py (relating to the writer.py), and the aformentioned fonts directory.
 
+There are a number of libraries that can write fonts to the framebuffer and the use of the writer.py has been used as an example.  Some other alternatives can be found in the awesome micropython collection of useful programs:
+https://awesome-micropython.com
+
+In particulat the microfont library also utilises the font-to-py fonts thus enabling a large amount of fonts to be accessed. Link is:
+https://github.com/antirez/microfont
