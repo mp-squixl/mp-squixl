@@ -18,3 +18,5 @@ https://awesome-micropython.com
 
 In particulat the microfont library also utilises the font-to-py fonts thus enabling a large amount of fonts to be accessed. Link is:
 https://github.com/antirez/microfont
+
+The ui_example_fonts.py is the example program to run.  All the other files are modules instaniated or used from this example program.
